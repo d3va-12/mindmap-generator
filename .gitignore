@@ -1,0 +1,73 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+pip-log.txt
+.pip_cache/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Frontend build
+frontend/build/
+frontend/dist/
+
+# Backend build and distribution
+dist/
+build/
+*.egg
+*.whl
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Model files (Mistral LLM)
+models/mistral-7b/*
+!models/mistral-7b/.gitkeep
+
+# Data and sample files
+data/samples/*
+!data/samples/.gitkeep
+
+# Documentation artifacts
+docs/*.pdf
+docs/*.png
+!docs/project_report.pdf
+!docs/architecture_diagram.png
+!docs/workflow_chart.png
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.cache
