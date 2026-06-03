@@ -4,7 +4,7 @@ Generate interactive mind maps from text, PDFs, or URLs using Mistral-7B-Instruc
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Generate mind maps from **text**, **PDF**, or **URL**
 - Uses **Mistral-7B-Instruct-v0.2** (GGUF) for LLM-powered summarization
@@ -45,7 +45,7 @@ npm start
 
 ---
 
-## 💡 Usage
+##  Usage
 
 1. Open [http://localhost:3000](http://localhost:3000)
 2. Enter text, upload a PDF/TXT, or provide a URL
@@ -54,7 +54,7 @@ npm start
 
 ---
 
-## 🐞 Troubleshooting
+##  Troubleshooting
 
 - **CORS Errors:**  
   Ensure `CORSMiddleware` is correctly set in `app.py`.
@@ -70,7 +70,7 @@ npm start
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 mindmap-generator/
